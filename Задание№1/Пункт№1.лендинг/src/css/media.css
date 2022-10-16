@@ -1,0 +1,104 @@
+/* media */
+@media (min-width: 600px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .card {
+    padding-top: 16px;
+    padding-right: 12px;
+    padding-left: 270px;
+    padding-bottom: 19px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 255px 100%;
+  }
+  .card__time--mobile {
+    display: none;
+  }
+  .card__time--desctop {
+    display: block;
+    margin-bottom: 9px;
+    font-size: 14px;
+  }
+  .card__subtitle {
+    margin-bottom: 11px;
+  }
+  .card__discount {
+    display: none;
+  }
+  #card-water {
+    background-image: url("../img/card__img--third.jpg");
+  }
+  #card-town {
+    background-image: url("../img/card__img--fourth.jpg");
+  }
+  #card-musik {
+    background-image: url("../img/card__img--fifth.jpg");
+  }
+  #card-news-first {
+    padding: 13px 35px;
+    top: 46px;
+    font-size: 16px;
+    color: white;
+    background-color: #099CE8;
+  }
+  #card-news-second {
+    padding: 13px 35px;
+    border-radius: 0px;
+    top: 59px;
+    font-size: 16px;
+    color: #323232;
+    background-color: #FFD83B;
+  }
+  .bottom {
+    justify-content: start;
+  }
+  .price {
+    margin-right: 10px;
+  }
+}
+@media (min-width: 800px) {
+  .card {
+    padding-left: 352px;
+    background-size: 330px 100%;
+  }
+  .card__subtitle {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 34px;
+    color: #000000;
+  }
+  .list__item {
+    padding-left: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #4B4B4B;
+  }
+  .btns__btn {
+    padding: 4px 16px;
+    font-size: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .card {
+    margin: 0 auto;
+    max-width: 1106px;
+    padding-top: 16px;
+    padding-right: 36px;
+    padding-left: 493px;
+    padding-bottom: 21px;
+    background-size: 473px 100%;
+  }
+  .card__subtitle {
+    font-size: 26px;
+  }
+  .btns__item:not(:last-child) {
+    margin-right: 6px;
+  }
+}/*# sourceMappingURL=media.css.map */
